@@ -1,5 +1,7 @@
 language: ruby
 
+sudo: false # Use container-based infrastructure
+
 cache: bundle
 
 before_install:
